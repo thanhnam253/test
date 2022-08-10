@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 10, 2022, 11:20:47 PM
+    Author     : quang
+*/
+footer{
+    height: 150px;
+    width: 2500px;
+    text-align: center;
+    background: #0F473F;
+    margin: 1%;
+    color: #000000;
+}
+header{
+    height: 100px;
+    width: 2500px;
+    text-align: center;
+    background: #ff0033;
+    margin: 1%;
+    color: #000000;
+}
+.slider{
+    height: 300px;
+    width: 2500px;
+    text-align: center;
+    background: green;
+    margin: 1%;
+    color: #000000;
+}
+.menu1{
+    height: 300px;
+    width: 2500px;
+}
+.menu2{
+    height: 300px;
+    width: 2500px;
+}
+.course{
+    
+    height: 200px;
+    width: 200px;
+    float:left;
+    text-align: center;
+    background: orange;
+    color: #000000;
+    margin-left: 300px;
+}
+.blog{
+   
+    height: 200px;
+    width: 500px;
+    float:left;
+    text-align: center;
+    background:#990099;
+    color: #000000;
+    margin-left: 400px;
+}
+.headerpage{
+    font-size:40px;
+    margin-left: 400px;
+}
+.headerpage a{
+    margin-right:90px;
+}
+.headerpage img{
+    margin-right: 200px;
+}
+.footerpage{
+    font-size:40px;
+    margin-left:200px;
+}
+.footerpage a{
+    margin-right:400px;
+}
+.footerpage img{
+    margin-right: 450px;
+}
