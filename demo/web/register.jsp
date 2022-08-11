@@ -8,10 +8,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        
+        <title>Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styleRegister.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
-    </body>
+        <header>
+             <jsp:include page="header.jsp"></jsp:include>
+        </header>
+        <div class="box">
+                <form class="login-form">
+                    <h1>Register</h1>
+                    <input type="text" name="fullname" placeholder="" required>
+                    <input type="text" name="gender" placeholder="" required>
+                    <input type="text" name="email" value="">
+                    <input type="text" name="moblie" placeholder="" required>
+                    <input type="text" name="password" placeholder="" required>
+                    <input type="text" name="password2" placeholder="" required>
+                    <input type="submit" name="Register" value="">
+                    <div class="links">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                    </button>
+                </form>
+            </div>
+        <footer>
+            <jsp:include page="footer.jsp"></jsp:include>
+        </footer>
+        </body>
 </html>
