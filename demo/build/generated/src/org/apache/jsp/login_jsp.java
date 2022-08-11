@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class login_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -47,28 +47,22 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!DOCTYPE html>\r\n");
       out.write("<html>\r\n");
       out.write("    <head>\r\n");
-      out.write("        \r\n");
-      out.write("        <title>Register</title>\r\n");
+      out.write("        <title>Login</title>\r\n");
       out.write("        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n");
-      out.write("        <link rel=\"stylesheet\" href=\"css/styleRegister.css\">\r\n");
-      out.write("        <link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">\r\n");
+      out.write("        <link rel=\"stylesheet\" href=\"css/login.css\">\r\n");
       out.write("    </head>\r\n");
       out.write("    <body>\r\n");
       out.write("        <header>\r\n");
-      out.write("             ");
+      out.write("            ");
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "header.jsp", out, false);
       out.write("\r\n");
       out.write("        </header>\r\n");
       out.write("        <div class=\"box\">\r\n");
       out.write("                <form class=\"login-form\">\r\n");
-      out.write("                    <h1>Register</h1>\r\n");
-      out.write("                    <input type=\"text\" name=\"fullname\" placeholder=\"\" required>\r\n");
-      out.write("                    <input type=\"text\" name=\"gender\" placeholder=\"\" required>\r\n");
-      out.write("                    <input type=\"text\" name=\"email\" value=\"\">\r\n");
-      out.write("                    <input type=\"text\" name=\"moblie\" placeholder=\"\" required>\r\n");
-      out.write("                    <input type=\"text\" name=\"password\" placeholder=\"\" required>\r\n");
-      out.write("                    <input type=\"text\" name=\"password2\" placeholder=\"\" required>\r\n");
-      out.write("                    <input type=\"submit\" name=\"Register\" value=\"\">\r\n");
+      out.write("                    <h1>Login</h1>\r\n");
+      out.write("                    <input type=\"text\" name=\"username\" placeholder=\"\" required>\r\n");
+      out.write("                    <input type=\"password\" name=\"password\" placeholder=\"\" required>\r\n");
+      out.write("                    <input type=\"submit\" name=\"Login\" value=\"\">\r\n");
       out.write("                    <div class=\"links\">\r\n");
       out.write("                        <a href=\"#\"></a>\r\n");
       out.write("                        <a href=\"#\"></a>\r\n");
@@ -76,12 +70,12 @@ public final class register_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </button>\r\n");
       out.write("                </form>\r\n");
       out.write("            </div>\r\n");
+      out.write("        </body>\r\n");
       out.write("        <footer>\r\n");
       out.write("            ");
       org.apache.jasper.runtime.JspRuntimeLibrary.include(request, response, "footer.jsp", out, false);
       out.write("\r\n");
       out.write("        </footer>\r\n");
-      out.write("        </body>\r\n");
       out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
